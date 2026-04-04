@@ -1,0 +1,18 @@
+package com.kodewala.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.kodewala.app.bean.Account;
+
+@Configuration
+
+public class SpringConfig {
+	
+	@Bean
+	public Account createAccount() {
+		return  new Account("munna" , "saving");
+		
+	}
+
+}

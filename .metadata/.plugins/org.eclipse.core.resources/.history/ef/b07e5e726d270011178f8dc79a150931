@@ -1,0 +1,36 @@
+package com.kodewala;
+/*
+ * 
+ 2. java type - when we create bean  through the java type way that some key point to remmeber.
+ 
+ 1-  Add (spring-context)dependency in POM.xml file
+ 
+ 2 - create pojo class 
+ 
+ 3.  create springConfig class nd use @configaration for class level its  give bean of difination. and @bean use the method level annotation.
+
+4.  Create ioc container   (ApplicationContext)  and ctrate here and //Requesting / getting  bean from container 
+ */
+
+public class AccountInfo {
+
+	private String name;
+	private String accountType;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAccountType() {
+		return accountType;
+	}
+
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+
+}

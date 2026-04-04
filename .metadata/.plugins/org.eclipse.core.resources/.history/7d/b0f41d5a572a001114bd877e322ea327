@@ -1,0 +1,21 @@
+package com.kodewala.app.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+public class AccountMngm {
+	
+	@Autowired
+	
+	//  NoUniqueBeanDefinitionException : come when  if u do write  @Qualifier
+//	@Qualifier("Acc2")
+	Account account;
+	
+	
+	public void printDetails() {
+		System.out.println(account.getName() +" " + account.getAccountType());
+	}
+
+}

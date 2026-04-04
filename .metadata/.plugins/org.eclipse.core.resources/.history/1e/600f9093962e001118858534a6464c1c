@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Rapido sign-Up</title>
+</head>
+<body>
+
+
+	<form action="signup" method="post">
+
+		<!-- Mobile -->
+		Mobile: <input type="text" name="mobile"
+			placeholder="Enter mobile number" required> <br> <br>
+
+		<!-- Email -->
+		Email: <input type="email" name="email" placeholder="Enter email"
+			required> <br> <br>
+
+		<!-- Location -->
+		Location: <input type="text" name="location"
+			placeholder="Enter location" required> <br> <br>
+
+		<!-- OTP -->
+		OTP: <input type="text" name="otp" placeholder="Enter OTP" required>
+		<br> <br> <input type="submit" value="Sign Up">
+
+	</form>
+
+
+
+	This is Sign up page . will implemets soon....
+</body>
+</html>

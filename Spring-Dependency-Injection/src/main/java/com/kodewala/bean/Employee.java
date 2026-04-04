@@ -1,0 +1,42 @@
+package com.kodewala.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Employee {
+	private String name;
+	private String band;
+	
+
+	private Address address;
+	
+	@Autowired
+	public Employee(String _name, String _band, Address _addaddress) {
+		this.name = _name;
+		this.band = _band;
+		this.address = _addaddress;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getBand() {
+		return band;
+	}
+	public void setBand(String band) {
+		this.band = band;
+	}
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	public void print() {
+	    System.out.println("Name: " + name + ", Band: " + band);
+	    System.out.println("line1:" +address.getLine1()+"line2:" +address.getLine2()+"City: " + address.getCity());
+	}
+}

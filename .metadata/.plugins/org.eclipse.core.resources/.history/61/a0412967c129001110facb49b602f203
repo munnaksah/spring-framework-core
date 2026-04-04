@@ -1,0 +1,15 @@
+package com.kodewala.app.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+public class AccountMngm {
+	
+	@Autowired
+	Account account;
+	
+	
+	public void printDetails() {
+		System.out.println(account.getName() +" " + account.getAccountType());
+	}
+
+}

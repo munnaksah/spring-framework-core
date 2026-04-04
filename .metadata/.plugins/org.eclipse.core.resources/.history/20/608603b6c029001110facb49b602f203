@@ -1,0 +1,21 @@
+package com.kodewala.app.bean;
+
+public class Account {
+	
+	private String name;
+	private String accountType;
+
+	
+	
+	public Account() {
+		
+	}
+	
+	
+	public Account(String _name , String _accountType) {
+		
+		this.name = _name;
+		this.accountType = _accountType;
+		
+	}
+}

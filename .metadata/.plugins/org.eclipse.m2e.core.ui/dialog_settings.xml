@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\RapidoLogin\src\main\java\com\rapido\app\SignupController.java"/>
+			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\Spring-Bean-JAVA-Types\src\main\java\com\kodewala\app\Application.java"/>
+			<item value="C:\Users\SCL\eclipse-workspace\SpringFramework\Spring-Bean-XML-Type"/>
+			<item value="C:\Users\SCL\eclipse-workspace\SpringFramework"/>
+			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.amazon"/>
+			<item value="com.kodewala"/>
+			<item value="com.kodewala.Spring_Bean_Annotations_Type"/>
+			<item value="com.kodewala.Spring_Bean_Annotation_Type"/>
+		</list>
+		<list key="groupId">
+			<item value="com.amazon"/>
+			<item value="com.kodewala"/>
+		</list>
+		<list key="artifactId">
+			<item value="Amazon-Reseller-Onboarding"/>
+			<item value="RapidoLogin"/>
+			<item value="Spring-Dependency-Inje"/>
+			<item value="Spring-Dependency-Injection"/>
+			<item value="Spring-Bean-Annotations-Type"/>
+			<item value="Spring-Bean-Annotation-Type"/>
+			<item value="Spring-Bean-JAVA-Types"/>
+			<item value="Spring-Bean-Java-Type"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

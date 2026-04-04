@@ -1,0 +1,10 @@
+package com.amazon.request;
+
+public class OnboardingRequest {
+	
+	String sellerName;
+	String sellerMobile;
+	String sellerEmail;
+	String sellerType;
+
+}

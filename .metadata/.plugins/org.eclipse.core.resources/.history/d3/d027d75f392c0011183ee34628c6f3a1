@@ -1,0 +1,33 @@
+package com.kodewala.app.bean;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+
+/*
+ * | Feature                  | `@Autowired`      | `@Qualifier`         | `@Primary`       |
+| ------------------------ | ----------------- | -------------------- | ---------------- |
+| Purpose                  | Inject dependency | Choose specific bean | Set default bean |
+| Required?                | ✅ Yes             | ❌ Optional           | ❌ Optional       |
+| Works on                 | Field/Constructor | Field/Parameter      | Class/Bean       |
+| Resolves multiple beans? | ❌ No              | ✅ Yes                | ✅ Yes (default)  |
+
+ */
+
+@Component
+public class AccountMngm {
+	
+	@Autowired
+	
+	//  NoUniqueBeanDefinitionException : come when  if u do write  @Qualifier
+//	@Qualifier("Acc2")
+	Account account;
+	
+	
+	public void printDetails() {
+		System.out.println(account.getName() +" " + account.getAccountType());
+	}
+
+}
