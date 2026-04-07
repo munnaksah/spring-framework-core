@@ -2,6 +2,7 @@ package com.amazon.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
@@ -13,9 +14,10 @@ public class SellerOnboardingController {
 
 	@PostMapping("onboarding")
 	@ResponseBody
-	public String doOnboarding(@ModelAttribute OnboardingRequest request) {
+	public String doOnboarding( @ModelAttribute OnboardingRequest request) {
 		
 		System.out.println("Request received from seller  onboarding");
+//	    System.out.println("ID: " + id);
 		System.out.println("Seller Name : " + request.getSellerName());
 		System.out.println("Seller Mobile : " + request.getSellerMobile());
 		System.out.println("Seller Email : " + request.getSellerEmail());

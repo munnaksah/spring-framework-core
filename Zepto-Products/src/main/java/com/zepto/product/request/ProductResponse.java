@@ -1,0 +1,25 @@
+package com.zepto.product.request;
+
+public class ProductResponse {
+	
+	public String getProductId() {
+		return productId;
+	}
+
+	public void setProductId(String productId) {
+		this.productId = productId;
+	}
+
+	public String getConfirmationMSG() {
+		return confirmationMSG;
+	}
+
+	public void setConfirmationMSG(String confirmationMSG) {
+		this.confirmationMSG = confirmationMSG;
+	}
+
+	private String productId;
+	
+	private String  confirmationMSG;
+
+}

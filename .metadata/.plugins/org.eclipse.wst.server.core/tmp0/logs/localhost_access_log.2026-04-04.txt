@@ -55,3 +55,9 @@
 0:0:0:0:0:0:0:1 - - [04/Apr/2026:16:12:51 +0530] "GET /Amazon-Resseller-Onboarding/ HTTP/1.1" 200 444
 0:0:0:0:0:0:0:1 - - [04/Apr/2026:16:12:51 +0530] "GET /Amazon-Resseller-Onboarding/ HTTP/1.1" 200 444
 0:0:0:0:0:0:0:1 - - [04/Apr/2026:16:12:52 +0530] "GET /Amazon-Resseller-Onboarding/ HTTP/1.1" 200 444
+127.0.0.1 - - [04/Apr/2026:16:13:17 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [04/Apr/2026:16:13:18 +0530] "GET /Amazon-Resseller-Onboarding/ HTTP/1.1" 200 444
+0:0:0:0:0:0:0:1 - - [04/Apr/2026:16:13:28 +0530] "POST /Amazon-Resseller-Onboarding/onboarding HTTP/1.1" 200 86
+0:0:0:0:0:0:0:1 - - [04/Apr/2026:16:25:37 +0530] "POST /Amazon-Resseller-Onboarding/onboarding HTTP/1.1" 200 86
+0:0:0:0:0:0:0:1 - - [04/Apr/2026:16:25:56 +0530] "POST /Amazon-Reseller-Onboarding/onboarding HTTP/1.1" 404 792
+0:0:0:0:0:0:0:1 - - [04/Apr/2026:16:26:02 +0530] "POST /Amazon-Resseller-Onboarding/onboarding HTTP/1.1" 200 86

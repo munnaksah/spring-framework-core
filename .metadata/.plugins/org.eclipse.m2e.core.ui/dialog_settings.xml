@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\Zepto-Products\src\main\java\com\zepto\product\request\ProductResponse.java"/>
+			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\Amazon-Resseller-Onboarding\src\main\webapp\WEB-INF\onboarding-servlet.xml"/>
+			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\Amazon-Reseller-Onboarding\src\main\webapp\onboarding-servlet.xml"/>
 			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\RapidoLogin\src\main\java\com\rapido\app\SignupController.java"/>
 			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\Spring-Bean-JAVA-Types\src\main\java\com\kodewala\app\Application.java"/>
 			<item value="C:\Users\SCL\eclipse-workspace\SpringFramework\Spring-Bean-XML-Type"/>
@@ -30,16 +33,22 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.zepto"/>
+			<item value="com.amazon.Zepto_Product"/>
 			<item value="com.amazon"/>
 			<item value="com.kodewala"/>
 			<item value="com.kodewala.Spring_Bean_Annotations_Type"/>
 			<item value="com.kodewala.Spring_Bean_Annotation_Type"/>
 		</list>
 		<list key="groupId">
+			<item value="com.zepto"/>
 			<item value="com.amazon"/>
 			<item value="com.kodewala"/>
 		</list>
 		<list key="artifactId">
+			<item value="Zepto-Product"/>
+			<item value="Zepto-Products"/>
+			<item value="Amazon-Resseller-Onboarding"/>
 			<item value="Amazon-Reseller-Onboarding"/>
 			<item value="RapidoLogin"/>
 			<item value="Spring-Dependency-Inje"/>
