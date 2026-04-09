@@ -63,22 +63,23 @@
 <body>
 
 <div class="container">
+		<h2>✅ Product Uploaded</h2>
 
-    <div class="success">
-        ✅ Product Uploaded Successfully!
-    </div>
+		<div class="info">
+			Product ID : <span>${response.productId}</span><br>
+			Message : <span class="success">${response.confirmationMSG}</span>
+		</div>
 
-    <div class="details">
-        Product ID: <span class="id">${response.productId}</span>
-    </div>
+		<form action="checkProductStatus">
+			<h3>Check Product Status</h3>
+			<input type="text" name="productId" placeholder="Enter Product ID">
+			<br>
+			<input type="submit" value="Check Status">
+		</form>
+	</div>
+   
 
-    <div class="details">
-        ${response.confirmationMSG}
-    </div>
 
-    <a href="index.jsp" class="btn">Upload Another Product</a>
-
-</div>
 
 </body>
 </html>

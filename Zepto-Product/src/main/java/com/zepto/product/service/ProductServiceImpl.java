@@ -1,5 +1,7 @@
 package com.zepto.product.service;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +17,8 @@ public class ProductServiceImpl implements IProductService {
 	@Autowired
 	ProductRepository  productRepository;
 
+	
+	@Transactional
 	@Override
 	public ProductResponse createProduct(ProductRequest productRequest) {
 
@@ -32,24 +36,34 @@ public class ProductServiceImpl implements IProductService {
 
 
 		String input= productName+ qty;
+		
+		String status = "CREATED";
 
 	// calling to DAO or calling to Repository
-		String 	productId = productRepository.uploadProduct(input);
+		String 	productId = productRepository.uploadProduct(input ,status);
 
 		ProductResponse productResponse = new ProductResponse();
 		
 		if(productId != null) {
 		productResponse.setProductId(productId);
 		productResponse.setConfirmationMSG(
-				"🎉ProductServiceImpl---> Success! Your product has been uploaded successfully and will be visible on the catalog after review.");
+			    " Product uploaded successfully. It will appear in the catalog soon."
+			);
 		}else {
 			productResponse.setProductId(productId);
 			productResponse.setConfirmationMSG(
-					"🎉unable to upload product.");
+					"unable to upload product.");
 			
 		}
 		
 		return productResponse;
+	}
+
+	@Transactional
+	@Override
+	public String checkProductStatus(int productId) {
+	String status =	productRepository.getProductAndCheckStatus(productId);
+		return status;
 	}
 
 }
