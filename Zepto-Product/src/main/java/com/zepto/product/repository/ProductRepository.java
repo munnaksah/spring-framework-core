@@ -56,5 +56,27 @@ public class ProductRepository {
 
 	
 	}
+	
+	// get all products
+	 public List<ProductEntity> getAllProducts() {
+	        Query<ProductEntity> allRecordsQuery = sessionFactory.getCurrentSession()
+	                .createQuery("from ProductEntity", ProductEntity.class);
+	        return allRecordsQuery.list();
+	    }
+	 
+	 //for updateStatus
+	 public ProductEntity updateStatus(int id, String status) {
+		    ProductEntity product = sessionFactory.getCurrentSession().get(ProductEntity.class, id);
+		    if (product != null) {
+		        product.setStatus(status);
+		        sessionFactory.getCurrentSession().update(product);
+		    }
+			return product;
+		}
+	 
+	 
+	 public ProductEntity getProductById(int id) {
+		    return sessionFactory.getCurrentSession().get(ProductEntity.class, id);
+		}
 
 }

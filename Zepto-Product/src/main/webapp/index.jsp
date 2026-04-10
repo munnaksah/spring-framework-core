@@ -80,6 +80,12 @@
             <input type="submit" value="Upload Product">
 
         </form>
+        
+        <a href = "allProducts">
+        <button type="button"> show all details</button>
+        
+        </a>
+        
     </div>
 
 </body>

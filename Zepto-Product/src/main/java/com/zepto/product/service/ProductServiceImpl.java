@@ -1,10 +1,14 @@
 package com.zepto.product.service;
 
+import java.util.List;
+
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.ui.Model;
 
+import com.zepto.product.entity.ProductEntity;
 import com.zepto.product.repository.ProductRepository;
 import com.zepto.product.request.ProductRequest;
 import com.zepto.product.request.ProductResponse;
@@ -65,5 +69,36 @@ public class ProductServiceImpl implements IProductService {
 	String status =	productRepository.getProductAndCheckStatus(productId);
 		return status;
 	}
+
+	
+	// adding here
+	@Transactional
+	
+	@Override
+	public List<ProductEntity> getAllProducts() {
+		return productRepository.getAllProducts();
+	}
+
+	
+	
+	
+	// for updateData
+	
+	@Transactional
+
+	@Override
+	public ProductEntity updateStatus(int id, String status) {
+		productRepository.updateStatus(id, status);
+		return productRepository.updateStatus(id, status); 
+	}
+
+	@Transactional
+	@Override
+	public ProductEntity getProductById(int id) {
+	    return productRepository.getProductById(id);
+	}
+
+	
+	
 
 }
