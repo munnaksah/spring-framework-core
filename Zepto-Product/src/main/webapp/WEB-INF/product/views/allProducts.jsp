@@ -118,7 +118,6 @@ tr:hover {
 	}
 	%>
 
-	<a href="uploadProduct" class="btn">⬅ Back</a>
 
 </body>
 </html>

@@ -48,7 +48,7 @@ public class ProductStatusController {
 	         @RequestParam("id") int id,
 	         @RequestParam("status") String status) {
 
-		 iProductService.updateStatus(id, status);
+		 iProductService.updateStatus(id, status );
 
 	     return "redirect:/allProducts";
 	 }
