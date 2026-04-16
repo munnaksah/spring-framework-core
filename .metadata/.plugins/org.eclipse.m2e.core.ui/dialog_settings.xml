@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\Blinkit-Products"/>
 			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\Zepto-Products\src\main\java\com\zepto\product\request\ProductResponse.java"/>
 			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\Amazon-Resseller-Onboarding\src\main\webapp\WEB-INF\onboarding-servlet.xml"/>
 			<item value="C:\Users\SCL\eclipse-workspace\javaApplication\SpringFramework\Amazon-Reseller-Onboarding\src\main\webapp\onboarding-servlet.xml"/>
@@ -33,7 +34,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.shopnext"/>
+			<item value="com.apna"/>
 			<item value="com.zepto"/>
+			<item value="com.blinkit"/>
 			<item value="com.amazon.Zepto_Product"/>
 			<item value="com.amazon"/>
 			<item value="com.kodewala"/>
@@ -41,11 +45,18 @@
 			<item value="com.kodewala.Spring_Bean_Annotation_Type"/>
 		</list>
 		<list key="groupId">
+			<item value="com.shopnext"/>
+			<item value="com.apna"/>
 			<item value="com.zepto"/>
+			<item value="com.blinkit"/>
 			<item value="com.amazon"/>
 			<item value="com.kodewala"/>
 		</list>
 		<list key="artifactId">
+			<item value="ShopNest-products"/>
+			<item value="Apna-Mart"/>
+			<item value="Zepto-Products-Type"/>
+			<item value="Blinkit-Products"/>
 			<item value="Zepto-Product"/>
 			<item value="Zepto-Products"/>
 			<item value="Amazon-Resseller-Onboarding"/>
